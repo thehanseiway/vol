@@ -1,0 +1,207 @@
+#content {
+    background-color: #fff !important;
+}
+article .entry-content > p, article .entry-content section > p {
+    margin: 35px auto 0 !important;
+}
+article .entry-content {
+    margin: 20px auto 50px auto;
+    font-family: sans-serif, 'Arial';
+    font-size: 18px;
+    line-height: 1.75;
+    color: rgba(0,0,0,.7);
+    letter-spacing: -.003em;
+    font-weight: 400;
+}
+
+.article-card.squarebig {
+    height: 35vh;
+    min-height: 320px;
+}
+
+.article-default-width, article .entry-content p, article ul, article ol {
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+article h1 strong, article h2 strong, article h3 strong, article h4 strong, article h5 strong {
+    font-weight: 300;
+}
+article blockquote, article h1, article h2, article h3, article h4, article h5, article h6 {
+    font-family: 'Adelle',serif,Verdana;
+    max-width: 700px;
+    letter-spacing: -.02em;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -.022em;
+    color: rgba(0,0,0,1);
+    padding: 0;
+    margin: 35px auto 0;
+}
+
+p strong {
+    font-family: 'Adelle-semibold',serif,Verdana !important;
+}
+
+.article-card .readbottom {
+    display: none;
+}
+
+.article-card > .inner > .image-cover {
+    align-items: flex-end;
+}
+
+.article-card.squarebig > .inner .frame-inner {
+    margin: 0 auto;
+    width: 800px;
+    background: #fff;
+}
+
+.article-card .on-top-title {
+    padding: 10px;
+}
+
+.article-card.squarebig > .inner .inner {
+    padding: 20px 0 0;
+}
+
+.loop_3columns-posts-list li .title {
+    color: #333941;
+    font-family: sans-serif, Arial;
+}
+
+.loop_3columns-posts-list li .title:hover {
+    color: #000;
+}
+
+.article-card.squarebig > .inner .inner .title {
+    text-shadow: none;
+    color: #333941;
+    font-family: sans-serif, Arial;
+    text-align: left;
+    max-width: 690px;
+    margin: auto;
+    font-size: 36px;
+}
+
+.article-default-width, article .entry-content p, article ul, article ol {
+    padding: 0;
+}
+
+.article-card.squarebig > .inner .inner .title:hover {
+    color: #000;
+}
+
+/* Medium gallery overlay */
+.full-width {
+   width:100% !important;
+}
+.full-width div {
+   width:100% !important;
+}
+
+article .entry-content pre a,
+article .entry-content pre a img,
+article .entry-content pre {
+    max-width: 100%;
+    margin: auto;
+    overflow: visible;
+    width:100%;
+}
+
+pre {
+    background: #fff;
+    padding: 35px 0 0;
+}
+
+article .entry-content .cq-medium-gallery {
+    margin-top: 35px !important;
+}
+article .entry-content .cq-medium-gallery,
+article .entry-content .cq-medium-gallery div {
+    max-width:100%;
+}
+
+.fluidbox__overlay {
+    width: 100% !important;
+    max-width: none !important;
+    background-color: #fff !important;
+}
+
+.vc_column_container>.vc_column-inner  {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fluidbox-item {
+    display:block;
+}
+.negative-margin-left {
+    margin-left: -50px;
+}
+
+.negative-margin-right {
+    margin-right: -50px;
+}
+
+.wpb_wrapper h5 {
+    display: block;
+    color: #b0b0b0;
+    font-size: 23px;
+    margin-bottom: 20px !important;
+}
+.wp-caption {
+    position:relative;
+    margin-bottom:20px;
+    padding: 0 20px;
+}
+.wp-caption .wp-caption-text {
+    color: #878888;
+    background: none;
+    line-height: 1.4em;
+    font-family: 'Adelle-light', 'helvetica neue', helvetica, arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: -140px;
+    text-align: right;
+    font-size: 13px;
+    width: 140px;
+    padding: 0;
+}
+
+article blockquote {
+    border-left: 0;
+    position: relative;
+    max-width: 700px;
+    text-align: center;
+    padding: 35px 0;
+}
+article blockquote p {
+    font-size: 30px;
+    font-family: 'Skolar-italic';
+}
+article blockquote::after,
+article blockquote::before {
+   content: ' ';
+   background-image: url('http://voloshin.md/wp-content/uploads/2016/02/quotes.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 32px;
+   height: 23px;
+   font-size: 60px;
+   position: absolute;
+   top:0;
+   bottom: 0;
+   margin: auto;
+}
+
+article blockquote::after {
+   right: -70px;
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+}
+
+article blockquote::before {
+   left: -70px;
+}

@@ -1,0 +1,294 @@
+/*
+Theme Name: Literatum
+Theme URI: http://kohette.com/
+Author: Rafael Martín
+Author URI: http://kohette.com
+Description: Description
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ltrtm
+Domain Path: /languages/
+Tags:
+
+
+*/
+
+
+/*html{-webkit-font-smoothing:antialiased}*/
+
+/* body */
+
+@font-face {
+  font-family: 'Adelle-Bold-Italic';
+  src: url('../fonts/Adelle Cyrillic Bold Italic.ttf');
+  src: url('../fonts/Adelle Cyrillic Bold Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle-Bold';
+  src: url('../fonts/Adelle Cyrillic Bold.ttf');
+  src: url('../fonts/Adelle Cyrillic Bold.ttf') format('truetype'),
+		url('../fonts/Adelle Cyrillic Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle-Extrabold';
+  src: url('../fonts/Adelle Cyrillic Extrabold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle';
+  src: url('../fonts/Adelle Cyrillic Regular.ttf'),
+		url('../fonts/Adelle Cyrillic Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle-light';
+  src: url('../fonts/Adelle Cyrillic Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle-semibold';
+  src: url('../fonts/Adelle Cyrillic SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corpid-bold';
+  src: url('../fonts/CorpidCdOT-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corpid-black';
+  src: url('../fonts/CorpidOT-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corpid-heavy';
+  src: url('../fonts/CorpidOT-Heavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Skolar';
+  src: url('../fonts/SkolarCyrillic_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Skolar-italic';
+  src: url('../fonts/SkolarCyrillic_Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	background-color:#000;
+}
+
+#content {
+	background-color: #F9FBFF;
+}
+
+
+
+
+/* fix for safari sub pixels */
+.content-area {
+	width:100%;
+	/*overflow:hidden;*/
+}
+
+.site-main {
+	width:100.50%;
+}
+
+
+
+
+
+.sticky {}
+.bypostauthor{}
+
+/* predefined measures */
+
+.default-content-width {
+	max-width:960px;
+	margin:auto;
+}
+
+
+
+
+/* load more style for infinite scroll */
+
+#load-more {
+
+	color:#888;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	font-size:14px;
+	font-weight:200;
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+}
+
+#load-more img {
+	display:none;
+}
+
+#load-more em {
+	display:block;
+	padding:5px 10px;
+	background-color:rgba(0,0,0,0.9);
+
+	border-radius:3px;
+}
+
+#load-more em i {
+	margin-right:5px;
+}
+
+
+
+
+
+/* top controls */
+
+#top-controls {
+	display:none;
+	position:fixed;
+	top:20px;
+	right:20px;
+	z-index:666;
+}
+
+#top-controls.affix {
+	display:block;
+}
+
+#top-controls .top-button {
+	display:inline-block;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	font-size:12px;
+	height:32px;
+	width:32px;
+	line-height:32px;
+	text-align:center;
+	border-radius:2px;
+	cursor:pointer;
+	transition: background-color .15s ease-in-out;
+  	-moz-transition: background-color .15s ease-in-out;
+  	-webkit-transition: background-color .15s ease-in-out;
+}
+
+#top-controls .top-button:hover {
+	background-color:rgba(0,0,0,0.9);
+}
+
+#top-controls .top-button:active {
+	font-size:10px;
+}
+
+
+
+
+
+/* "No results" page */
+
+
+.no-results {
+	padding-top:100px;
+}
+
+.no-results .page-title {
+	font-size:30px;
+	font-family: Domine, 'Gentium Book Basic', serif;
+}
+
+.no-results .page-content {
+	font-family:'PT Sans','helvetica neue', helvetica, arial, sans-serif;
+	color:#777;
+	font-size:18px;
+}
+
+
+
+/* remove "search for" text from search form */
+
+.search-form .screen-reader-text {
+	display:none;
+}
+
+
+/* google comments responsive fix */
+div#google-comments {
+	width:100% !important;
+}
+
+div#google-comments > iframe {
+	width:100% !important;
+}
+
+
+
+/* MOBILE */
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+
+	.hide-on-mobile {
+		display:none !important;
+	}
+
+}
+
+/*  Magnific popup */
+.image-source-link {
+	color: #98C3D1;
+}
+
+.mfp-img {
+    transform: translate3d(0, 0, 0);
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    background: #fff;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 1;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
